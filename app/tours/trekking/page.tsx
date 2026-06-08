@@ -1,69 +1,95 @@
 import Link from "next/link";
 
-export default function TrekkingTour() {
-  const treks = [
-    {
-      name: "Dagala Trek",
-      link: "/tours/trekking/dagala-trek",
-    },
-    {
-      name: "Druk Path Trek",
-      link: "/tours/trekking/druk-path-trek",
-    },
-    {
-      name: "Jhomolhari Trek",
-      link: "/tours/trekking/jhomolhari-trek",
-    },
-    {
-      name: "Laya Lingshi Trek",
-      link: "/tours/trekking/laya-lingshi-trek",
-    },
-  ];
+const treks = [
+  {
+    name: "Bumdra Trek",
+    duration: "7 Days",
+    link: "/tours/trekking/bumdra",
+  },
+  {
+    name: "Jomolhari Trek",
+    duration: "11 Days",
+    link: "/tours/trekking/jomolhari",
+  },
+  {
+    name: "Soi Yaksa Trek",
+    duration: "12 Days",
+    link: "/tours/trekking/soi-yaksa",
+  },
+  {
+    name: "Druk Path Trek",
+    duration: "9 Days",
+    link: "/tours/trekking/druk-path",
+  },
+  {
+    name: "Dagala Thousand Lakes Trek",
+    duration: "9 Days",
+    link: "/tours/trekking/dagala",
+  },
+  {
+    name: "Sagala Trek",
+    duration: "7 Days",
+    link: "/tours/trekking/sagala",
+  },
+  {
+    name: "Merak Sakteng Trek",
+    duration: "18 Days",
+    link: "/tours/trekking/merak-sakteng",
+  },
+  {
+    name: "Laya Gasa Trek",
+    duration: "21 Days",
+    link: "/tours/trekking/laya-gasa",
+  },
+  {
+    name: "Sinchula Trek",
+    duration: "5 Days",
+    link: "/tours/trekking/sinchula",
+  },
+];
 
+export default function TrekkingPage() {
   return (
-    <main
-      className="min-h-screen bg-cover bg-center p-10"
-      style={{
-        backgroundImage: "url('/trekking.png')",
-      }}
+  <main className="relative min-h-screen overflow-hidden">
+
+    {/* Background Video */}
+    <video
+      autoPlay
+      loop
+      muted
+      playsInline
+      className="absolute inset-0 w-full h-full object-cover"
     >
+      <source src="/trekking-video.mp4" type="video/mp4" />
+    </video>
 
-      {/* dark overlay */}
-      <div className="bg-black/50 min-h-screen p-10 rounded-xl">
+    {/* Dark Overlay */}
+    <div className="absolute inset-0 bg-black/50"></div>
 
-        <h1 className="text-5xl font-bold text-white">
-          Bhutan Trekking Tours
-        </h1>
+    {/* Content */}
+    <div className="relative z-10 p-10 text-white">
+      <h1 className="text-5xl font-bold mb-4">
+        Bhutan Trekking Tours
+      </h1>
 
-        <p className="mt-4 text-lg text-white">
-          Explore Bhutan’s most beautiful Himalayan trekking routes,
-          from ancient trails to high mountain adventures.
-        </p>
+      <p className="text-xl mb-8">
+        Explore the untouched Himalayas with Dragon Vista Tours.
+      </p>
 
-        <div className="grid md:grid-cols-2 gap-6 mt-10">
-
-          {treks.map((trek) => (
-            <Link
-              key={trek.name}
-              href={trek.link}
-              className="bg-white/80 rounded-xl p-6 hover:scale-105 transition"
-            >
-
-              <h2 className="text-2xl font-bold">
-                {trek.name}
-              </h2>
-
-              <p className="mt-2">
-                View itinerary →
-              </p>
-
-            </Link>
-          ))}
-
-        </div>
-
+      <div className="grid md:grid-cols-3 gap-6">
+        {treks.map((trek) => (
+          <Link
+            key={trek.name}
+            href={trek.link}
+            className="bg-white/10 backdrop-blur-md p-6 rounded-xl border border-white/20 hover:bg-white/20"
+          >
+            <h2 className="text-2xl font-bold">{trek.name}</h2>
+            <p>{trek.duration}</p>
+          </Link>
+        ))}
       </div>
+    </div>
 
-    </main>
-  );
+  </main>
+);
 }

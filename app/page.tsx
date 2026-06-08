@@ -38,9 +38,9 @@ export default function Home() {
                 </p>
               </Link>
 
-              <Link href="/tours/luxury">
+              <Link href="/tours/crafted">
                 <p className="py-2 hover:text-orange-400">
-                  Luxury Tours
+                  Crafted Journey
                 </p>
               </Link>
 
@@ -92,7 +92,7 @@ export default function Home() {
     playsInline
     className="absolute top-0 left-0 w-full h-full object-cover object-center"
   >
-    <source src="/bhutan-video.mp4" type="video/mp4" />
+    <source src="/background.video mp4" type="video/mp4" />
   </video>
 
   <div className="absolute inset-0 bg-black/50"></div>
@@ -222,13 +222,13 @@ export default function Home() {
 
           </Link>
 
-          {/* LUXURY */}
-          <Link href="/tours/luxury">
+          {/* Crafted */}
+          <Link href="/tours/crafted">
 
             <div className="rounded-3xl overflow-hidden shadow-xl hover:scale-105 duration-300 cursor-pointer">
 
               <img
-                src="Luxury.png"
+                src="crafted.png"
                 className="h-96 w-full object-cover"
               />
 
@@ -239,7 +239,7 @@ export default function Home() {
                 </p>
 
                 <h3 className="text-3xl font-bold mb-3">
-                  Luxury Tours
+                  Crafted Journeys
                 </h3>
 
                 <p className="text-lg">
@@ -274,9 +274,13 @@ export default function Home() {
 
   <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
     <img src="/Cultural.png" alt="Culture" className="rounded-xl" />
-    <img src="/Luxury.png" alt="Luxury" className="rounded-xl" />
+    <img src="/crafted.png" alt="Luxury" className="rounded-xl" />
     <img src="/Festival.png" alt="Festival" className="rounded-xl" />
     <img src="/background.png" alt="Bhutan" className="rounded-xl" />
+    <img src="/dochula-festival.png" alt="Bhutan" className="rounded-xl" />
+    <img src="/adventure.png" alt="Bhutan" className="rounded-xl" />
+    <img src="/bumthang.png" alt="Bhutan" className="rounded-xl" />
+    <img src="/dochula.png" alt="Bhutan" className="rounded-xl" />
   </div>
 </section>
       {/* WHY TRAVEL WITH US */}
@@ -288,7 +292,7 @@ export default function Home() {
 
   <div className="text-center text-lg">
     <p>Email: info@dragonvistatours.com</p>
-    <p>Phone: +975 XXXXXXXX</p>
+    <p>Phone: +975 17457487</p>
     <p>WhatsApp: +975 XXXXXXXX</p>
   </div>
 </section>
@@ -307,7 +311,7 @@ export default function Home() {
               </h3>
 
               <p className="text-gray-300">
-                Friendly local guides with deep knowledge of Bhutanese culture.
+                1800+ happy custome, 35+ Friendly local guides with deep knowledge of Bhutanese culture.
               </p>
 
             </div>
@@ -491,7 +495,105 @@ export default function Home() {
         <p className="text-gray-400">
           Where Happiness Meets Adventure
         </p>
+{/* SOCIAL MEDIA FOOTER */}
+<section className="bg-black text-white py-14 text-center">
 
+  <h2 className="text-4xl font-bold mb-3">
+    Follow Dragon Vista Tours
+  </h2>
+
+  <p className="text-gray-300 mb-10 text-lg">
+    Dragon Vista Tours | Where the Thunder Dragon Guides Your Journey
+  </p>
+
+
+  <div className="flex justify-center gap-8">
+
+
+    {/* INSTAGRAM */}
+    <a
+      href="https://www.instagram.com/dragonvistatours"
+      target="_blank"
+    >
+      <img
+        src="/instagram.png"
+        className="
+        w-16 h-16
+        rounded-full
+        object-cover
+        hover:scale-125
+        transition
+        shadow-lg
+        "
+      />
+    </a>
+
+
+    {/* FACEBOOK */}
+    <a
+      href="https://www.facebook.com/dragonvistatours"
+      target="_blank"
+    >
+      <img
+        src="/facebook.png"
+        className="
+        w-16 h-16
+        rounded-full
+        object-cover
+        hover:scale-125
+        transition
+        shadow-lg
+        "
+      />
+    </a>
+
+
+    {/* TIKTOK */}
+    <a
+      href="https://www.tiktok.com/@dragonvistatours"
+      target="_blank"
+    >
+      <img
+        src="/tiktok.png"
+        className="
+        w-16 h-16
+        rounded-full
+        object-cover
+        hover:scale-125
+        transition
+        shadow-lg
+        "
+      />
+    </a>
+
+
+    {/* WHATSAPP */}
+    <a
+      href="https://wa.me/975XXXXXXXX"
+      target="_blank"
+    >
+      <img
+        src="/whatsapp.png"
+        className="
+        w-16 h-16
+        rounded-full
+        object-cover
+        hover:scale-125
+        transition
+        shadow-lg
+        "
+      />
+    </a>
+
+
+  </div>
+
+
+  <p className="mt-12 text-gray-400">
+    © 2026 Dragon Vista Tours | Creating Authentic Bhutan Experiences
+  </p>
+
+</section>
       </footer>
 
     </main>

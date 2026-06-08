@@ -50,11 +50,11 @@ export default function SevenDayTour() {
     <main
       className="min-h-screen bg-cover bg-center p-10"
       style={{
-        backgroundImage: "url('/logo.png')",
+        backgroundImage: "url('/7 days.png')",
       }}
     >
 
-      <h1 className="text-center text-6xl font-bold text-blue-950">
+      <h1 className="text-center text-6xl font-bold text-red-950">
         BHUTAN ITINERARY
       </h1>
 

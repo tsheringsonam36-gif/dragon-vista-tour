@@ -60,7 +60,7 @@ export default function FiveDayCultureTour() {
 
       style={{
 
-        backgroundImage: "url('/7 days.png')",
+        backgroundImage: "url('/background.png')",
 
       }}
 
@@ -256,7 +256,7 @@ export default function FiveDayCultureTour() {
 
             <h2 className="text-5xl font-bold text-yellow-500">
 
-              1,250
+              1,400
 
             </h2>
 

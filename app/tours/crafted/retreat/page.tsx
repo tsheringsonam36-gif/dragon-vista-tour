@@ -79,7 +79,7 @@ day:"Day 4",
 title:"Tiger’s Nest – Journey Within",
 location:"Taktsang Monastery",
 
-image:"/tigernest.png",
+image:"/tiger.png",
 
 text:`Today is the heart of your Himalayan Retreat.
 

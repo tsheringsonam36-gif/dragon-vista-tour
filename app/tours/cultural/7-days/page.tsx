@@ -50,7 +50,7 @@ export default function SevenDayTour() {
     <main
       className="min-h-screen bg-cover bg-center p-10"
       style={{
-        backgroundImage: "url('/7 days.png')",
+        backgroundImage: "url('/background.png')",
       }}
     >
 
@@ -124,7 +124,7 @@ export default function SevenDayTour() {
             <p>USD</p>
 
             <h2 className="text-5xl font-bold text-yellow-500">
-              1,850
+              2,100
             </h2>
 
           </div>

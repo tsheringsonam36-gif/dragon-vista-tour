@@ -83,7 +83,7 @@ Tomorrow is your Escape Day — a journey beyond ordinary travel.`
 day:"Day 5",
 title:"THE ESCAPE DAY – Into The Himalayan Wilderness",
 location:"Bumdra Hidden Mountain Experience",
-image:"/tigernest.png",
+image:"/bumdra.png",
 text:`Today is the heart of your Mystery Escape.
 
 Leave behind roads, noise and routine as you disappear into Bhutan’s untouched mountains.
@@ -111,7 +111,7 @@ This is the escape you never knew you needed.`
 day:"Day 6",
 title:"From The Clouds To Tiger’s Nest",
 location:"Bumdra → Taktsang Monastery",
-image:"/tigernest.png",
+image:"/tiger.png",
 text:`Wake up above the clouds surrounded by Himalayan silence.
 
 Begin your descent through ancient forests and sacred trails toward Bhutan’s greatest treasure.

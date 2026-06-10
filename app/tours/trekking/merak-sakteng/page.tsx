@@ -144,7 +144,7 @@ export default function MerakSaktengTrek() {
         className="h-[75vh] bg-cover bg-center flex items-center justify-center"
 
         style={{
-          backgroundImage: "url('/merak-sakteng.jpg')",
+          backgroundImage: "url('/yak.png')",
         }}
 
       >

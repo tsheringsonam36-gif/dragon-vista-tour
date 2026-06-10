@@ -79,7 +79,7 @@ export default function DagalaTrek() {
         className="h-[75vh] bg-cover bg-center flex items-center justify-center"
 
         style={{
-          backgroundImage: "url('/dagala.jpg')",
+          backgroundImage: "url('/mystery.png')",
         }}
 
       >
@@ -299,7 +299,6 @@ export default function DagalaTrek() {
 >
   Book This Trek →
 </Link>
-
 
       </section>
 

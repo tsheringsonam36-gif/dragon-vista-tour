@@ -44,16 +44,12 @@ A beautiful day celebrating family connections across generations.`
 
 {
 day:"Day 3",
-title:"Paro Valley – Stories Across Generations",
-location:"Thimphu → Paro",
-image:"/paro-valley.png",
-text:`Travel together into the beautiful Paro Valley, a place where legends, history and nature come alive.
+title:"Punakha Valley – Stories Across Generations",
+location:"Thimphu → Punakha",
+image:"/punakha.png",
+text:`Travel together into the beautiful Punakha Valley, a place where legends, history and nature come alive.
 
-Visit the National Museum and discover Bhutan’s fascinating stories through ancient treasures, royal history and cultural displays.
-
-Explore Paro Dzong, one of Bhutan’s most impressive fortresses, and walk across traditional bridges surrounded by mountain views.
-
-Visit sacred temples and peaceful villages where families can experience the simple happiness of Bhutanese life.
+Visit Dochula pass on the way to Punakha and withness the breathtaking Himalayan peaks stretching across the horizon. Descend into Punakha Valley and explore one of the Bhutan's greatest architectural wonders - Punakha Dzong. Hike towards peacefull chimi lhakhang and discover Bhutan’s fascinating stories through ancient treasures, royal history and cultural displays.
 
 Today is about sharing stories, laughter and unforgettable moments together.`
 },
@@ -63,7 +59,7 @@ Today is about sharing stories, laughter and unforgettable moments together.`
 day:"Day 4",
 title:"Family Discovery – Nature, Villages & Hidden Bhutan",
 location:"Paro Experience",
-image:"/punakha.png",
+image:"/paro.png",
 text:`Enjoy a slower day created around family connection.
 
 Visit ancient temples filled with centuries of blessings and explore peaceful countryside landscapes.
@@ -80,7 +76,7 @@ This is a day to disconnect from busy life and reconnect with the people who mat
 day:"Day 5",
 title:"Tiger’s Nest – A Family Achievement Together",
 location:"Taktsang Monastery",
-image:"/tigernest.png",
+image:"/tiger.png",
 text:`Today becomes one of your family’s greatest shared memories.
 
 Begin the legendary hike to Tiger’s Nest Monastery, Bhutan’s most iconic landmark.
@@ -272,7 +268,7 @@ text-lg
 
 <p>✓ Private family journey</p>
 <p>✓ Bhutan Visa Arrangement</p>
-<p>✓ Airport Transfers</p>
+<p>✓ Transportation</p>
 <p>✓ Accommodation</p>
 <p>✓ Daily Meals</p>
 <p>✓ Private Vehicle</p>

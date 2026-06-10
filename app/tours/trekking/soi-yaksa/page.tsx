@@ -82,7 +82,7 @@ export default function SoiYaksaTrek() {
       <section
         className="h-[70vh] bg-cover bg-center flex items-center justify-center"
         style={{
-          backgroundImage: "url('/background.png')",
+          backgroundImage: "url('/sagala.png')",
         }}
       >
         <div className="bg-black/60 p-8 rounded-xl text-center">

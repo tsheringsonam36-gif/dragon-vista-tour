@@ -18,12 +18,7 @@ image:"/anniversary.png",
 link:"/tours/crafted/anniversary"
 },
 
-{
-title:"The Couple Celebration",
-text:"Sneak away together and let the world fade away.",
-image:"/couple.png",
-link:"/tours/crafted/couple"
-},
+
 
 {
 title:"VIP Birthday Bash",

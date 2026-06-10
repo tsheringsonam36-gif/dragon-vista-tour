@@ -44,7 +44,7 @@ Enjoy romantic walks across suspension bridges and peaceful valley landscapes.`
       day: "Day 4",
       title: "Love, Blessings & The Soul of Punakha",
       location: "Couple Blessing Experience",
-      image: "/couple-blessing.png",
+      image: "/honeymoon.png",
       text: `Begin with a beautiful hike through rice terraces and forests to Khamsum Yulley Namgyal Chorten.
 
 Upon reaching the temple, experience a special romantic blessing ceremony.
@@ -72,7 +72,7 @@ A journey through Bhutan’s ancient stories and spiritual traditions.`
       day: "Day 6",
       title: "Tiger’s Nest – Sacred Journey of Love & Blessings",
       location: "Taktsang Monastery",
-      image: "/tigernest.png",
+      image: "/tiger.png",
       text: `Experience Bhutan’s most unforgettable landmark — Tiger’s Nest Monastery.
 
 Walk through peaceful forests and prayer flags before reaching this sacred temple.

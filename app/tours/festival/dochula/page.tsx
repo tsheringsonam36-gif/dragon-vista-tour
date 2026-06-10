@@ -166,7 +166,7 @@ justify-center
 
 style={{
 backgroundImage:
-"linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.75)), url('/festival.png')"
+"linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.75)), url('/dochula-festival.png')"
 }}
 
 >

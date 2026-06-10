@@ -65,7 +65,7 @@ A perfect day filled with discovery, joy and birthday memories.`
 day:"Day 4",
 title:"Tiger’s Nest Adventure & Birthday Blessing",
 location:"Taktsang Monastery",
-image:"/tigernest.png",
+image:"/birthday.png",
 text:`Today is the unforgettable highlight of your birthday celebration.
 
 Begin your journey to the legendary Tiger’s Nest Monastery, Bhutan’s most iconic sacred site.

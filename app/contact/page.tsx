@@ -1,145 +1,174 @@
-export default function Contact() {
+export default function SevenDayTour() {
+  const days = [
+    {
+      day: "DAY 1",
+      title: "ARRIVAL IN PARO – THIMPHU",
+      img: "/thimphu.png",
+      text: "Arrive in Paro and drive to Thimphu. Visit Buddha Point and enjoy your first Himalayan views.",
+    },
+    {
+      day: "DAY 2",
+      title: "THIMPHU EXPLORATION",
+      img: "/buddha.png",
+      text: "Explore museums, markets, temples, Memorial Chorten and Tashichho Dzong.",
+    },
+    {
+      day: "DAY 3",
+      title: "THIMPHU TO PUNAKHA",
+      img: "/punakha.png",
+      text: "Travel through Dochula Pass and visit Punakha Dzong and Suspension Bridge.",
+    },
+    {
+      day: "DAY 4",
+      title: "PUNAKHA EXPLORATION",
+      img: "/chorten.png",
+      text: "Visit Khamsum Yulley Namgyal Chorten and experience Bhutanese village life.",
+    },
+    {
+      day: "DAY 5",
+      title: "PUNAKHA TO PARO",
+      img: "/paro.png",
+      text: "Return to Paro and discover ancient temples and local culture.",
+    },
+    {
+      day: "DAY 6",
+      title: "TIGER'S NEST HIKE",
+      img: "/tiger.png",
+      text: "Hike to the iconic Tiger’s Nest Monastery overlooking Paro Valley.",
+    },
+    {
+      day: "DAY 7",
+      title: "DEPART PARO",
+      img: "/airport.png",
+      text: "Farewell Bhutan with unforgettable memories.",
+    },
+  ];
+
   return (
     <main
-      className="min-h-screen flex items-center justify-center bg-cover bg-center px-6"
+      className="min-h-screen bg-cover bg-center p-10"
       style={{
-        backgroundImage: "url('/background.png')",
+        backgroundImage: "url('/logo.png')",
       }}
     >
 
-      <div className="bg-green-950/95 rounded-3xl p-10 max-w-4xl w-full">
+      <h1 className="text-center text-6xl font-bold text-blue-950">
+        BHUTAN ITINERARY
+      </h1>
 
-        <h1 className="text-4xl font-bold text-white text-center">
-          Plan Your Bhutan Journey
-        </h1>
-
-        <p className="text-center text-gray-300 mt-3">
-          Send us your enquiry and our local travel expert will contact you.
-        </p>
+      <p className="text-center text-3xl mt-3 italic">
+        Journey to the Land of Happiness
+      </p>
 
 
-        <form className="mt-10 space-y-5">
+      <div className="grid lg:grid-cols-3 gap-8 mt-12">
 
 
-          <input
-            type="text"
-            placeholder="Your Name"
-            className="
-            w-full 
-            p-5 
-            rounded-xl 
-            bg-white/10 
-            border 
-            border-white/30 
-            text-white
-            "
-          />
+        {/* LEFT ITINERARY */}
+        <div className="lg:col-span-2 space-y-4">
+
+          {days.map((item)=>(
+            <div
+              key={item.day}
+              className="flex bg-white/80 rounded-xl overflow-hidden shadow"
+            >
+
+              <img
+                src={item.img}
+                className="w-52 object-cover"
+              />
 
 
-          <input
-            type="email"
-            placeholder="Email Address"
-            className="
-            w-full 
-            p-5 
-            rounded-xl 
-            bg-white/10 
-            border 
-            border-white/30 
-            text-white
-            "
-          />
+              <div className="p-5">
 
+                <h2 className="text-xl font-bold text-blue-950">
+                  {item.day} - {item.title}
+                </h2>
 
+                <p className="mt-3">
+                  {item.text}
+                </p>
 
-          <div className="flex gap-4">
+              </div>
 
-            <input
-              value="+975"
-              readOnly
-              className="
-              w-28 
-              p-5 
-              rounded-xl 
-              bg-white/10 
-              border 
-              border-white/30
-              text-white
-              "
-            />
+            </div>
+          ))}
 
-
-            <input
-              type="text"
-              placeholder="Phone Number (optional)"
-              className="
-              flex-1 
-              p-5 
-              rounded-xl 
-              bg-white/10 
-              border 
-              border-white/30
-              text-white
-              "
-            />
-
-          </div>
+        </div>
 
 
 
-          <textarea
+        {/* RIGHT SIDE */}
+        <div className="bg-white/80 rounded-2xl p-8 shadow">
 
-            placeholder="Your message..."
-
-            rows={5}
-
-            className="
-            w-full
-            p-5
-            rounded-xl
-            bg-white/10
-            border
-            border-white/30
-            text-white
-            "
-
-          />
+          <h2 className="text-2xl font-bold text-center text-blue-950">
+            TOUR HIGHLIGHTS
+          </h2>
 
 
+          <ul className="mt-8 space-y-5 text-lg">
 
-          <label className="flex gap-3 text-gray-300">
+            <li>🏯 Tashichho Dzong</li>
 
-            <input type="checkbox"/>
+            <li>🙏 Buddha Dordenma</li>
 
-            Send me updates and special Bhutan travel offers
+            <li>⛰ Dochula Pass</li>
 
-          </label>
+            <li>🏰 Punakha Dzong</li>
 
+            <li>🌾 Chimi Lhakhang</li>
 
+            <li>🐯 Tiger’s Nest Monastery</li>
 
+          </ul>
 
-          <button
-            className="
-            w-full
-            bg-yellow-500
-            text-white
-            rounded-full
-            py-5
-            text-xl
-            font-bold
-            hover:bg-yellow-600
-            "
-          >
+        </div>
 
-            Send Enquiry
-
-          </button>
-
-
-        </form>
 
       </div>
 
+
+      <h2 className="text-center text-3xl italic mt-12">
+        Thank you for travelling with Dragon Vista Tours!
+      </h2>
+{/* PRICE + ENQUIRY BOX */}
+
+<div className="mt-10 bg-green-950 text-white rounded-3xl p-8 text-center shadow-xl">
+
+  <p className="tracking-widest text-gray-300 font-semibold">
+    STARTING FROM
+  </p>
+
+  <p className="mt-2 font-bold">
+    USD
+  </p>
+
+  <h2 className="text-6xl font-bold text-yellow-500 mt-3">
+    1,850
+  </h2>
+
+</div>
+
+
+<a
+  href="mailto:yourmail@gmail.com?subject=7 Days Bhutan Tour Enquiry"
+  className="
+    block 
+    mt-6
+    bg-yellow-500
+    text-white
+    rounded-full
+    py-5
+    text-center
+    text-2xl
+    font-bold
+    hover:bg-yellow-600
+    transition
+  "
+>
+  Talk to Us →
+</a>
     </main>
+    
   );
 }

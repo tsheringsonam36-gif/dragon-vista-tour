@@ -51,7 +51,7 @@ Walk across the suspension bridge and enjoy peaceful moments surrounded by river
       day: "Day 4",
       title: "Sacred Anniversary Blessing & Renewal of Love",
       location: "Punakha Spiritual Experience",
-      image: "/couple-blessing.png",
+      image: "/anniversary.png",
       text: `Today is dedicated to celebrating your journey together.
 
 Hike through beautiful rice terraces and peaceful landscapes to Khamsum Yulley Namgyal Chorten, a sacred temple overlooking Punakha Valley.
@@ -85,7 +85,7 @@ Explore sacred sites and enjoy quiet romantic moments together in the Himalayan 
       day: "Day 6",
       title: "Tiger’s Nest – Eternal Love Blessing Journey",
       location: "Taktsang Monastery",
-      image: "/tigernest.png",
+      image: "/tiger.png",
       text: `Today is the unforgettable highlight of your anniversary journey.
 
 Walk together through peaceful forests and prayer flags toward the legendary Tiger’s Nest Monastery.

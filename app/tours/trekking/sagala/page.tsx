@@ -67,7 +67,7 @@ export default function SagalaTrek() {
         className="h-[75vh] bg-cover bg-center flex items-center justify-center"
 
         style={{
-          backgroundImage: "url('/sagala.jpg')",
+          backgroundImage: "url('/sagala.png')",
         }}
 
       >

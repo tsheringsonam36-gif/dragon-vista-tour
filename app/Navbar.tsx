@@ -15,7 +15,7 @@ export default function Navbar() {
         <img
           src="/logo.png"
           alt="Dragon Vista Tours"
-          className="h-16 md:h-20"
+          className="h-20 md:h-20"
         />
       </Link>
 

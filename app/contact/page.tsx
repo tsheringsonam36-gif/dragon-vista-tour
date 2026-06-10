@@ -1,126 +1,108 @@
-export default function SevenDayTour() {
-  const days = [
-    {
-      day: "DAY 1",
-      title: "ARRIVAL IN PARO – THIMPHU",
-      img: "/thimphu.png",
-      text: "Arrive in Paro and drive to Thimphu. Visit Buddha Point and enjoy your first Himalayan views.",
-    },
-    {
-      day: "DAY 2",
-      title: "THIMPHU EXPLORATION",
-      img: "/buddha.png",
-      text: "Explore museums, markets, temples, Memorial Chorten and Tashichho Dzong.",
-    },
-    {
-      day: "DAY 3",
-      title: "THIMPHU TO PUNAKHA",
-      img: "/punakha.png",
-      text: "Travel through Dochula Pass and visit Punakha Dzong and Suspension Bridge.",
-    },
-    {
-      day: "DAY 4",
-      title: "PUNAKHA EXPLORATION",
-      img: "/chorten.png",
-      text: "Visit Khamsum Yulley Namgyal Chorten and experience Bhutanese village life.",
-    },
-    {
-      day: "DAY 5",
-      title: "PUNAKHA TO PARO",
-      img: "/paro.png",
-      text: "Return to Paro and discover ancient temples and local culture.",
-    },
-    {
-      day: "DAY 6",
-      title: "TIGER'S NEST HIKE",
-      img: "/tiger.png",
-      text: "Hike to the iconic Tiger’s Nest Monastery overlooking Paro Valley.",
-    },
-    {
-      day: "DAY 7",
-      title: "DEPART PARO",
-      img: "/airport.png",
-      text: "Farewell Bhutan with unforgettable memories.",
-    },
-  ];
-
+export default function Contact() {
   return (
     <main
-      className="min-h-screen bg-cover bg-center p-10"
+      className="min-h-screen bg-cover bg-center px-10 py-20"
       style={{
-        backgroundImage: "url('/logo.png')",
+        backgroundImage: "url('/background.png')",
       }}
     >
 
-      <h1 className="text-center text-6xl font-bold text-blue-950">
-        BHUTAN ITINERARY
-      </h1>
-
-      <p className="text-center text-3xl mt-3 italic">
-        Journey to the Land of Happiness
-      </p>
+      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10">
 
 
-      <div className="grid lg:grid-cols-3 gap-8 mt-12">
+        {/* LEFT CONTACT FORM */}
+
+        <div className="bg-black/80 text-white p-10 rounded-xl">
+
+          <h1 className="text-4xl font-bold text-orange-400 mb-5">
+            Get in Touch
+          </h1>
+
+          <p className="mb-8 text-gray-300">
+            Your Bhutan adventure begins here. Share your travel dreams with our local Bhutan specialists, and we will craft a meaningful journey filled with culture, nature, and unforgettable experiences.
+          </p>
 
 
-        {/* LEFT ITINERARY */}
-        <div className="lg:col-span-2 space-y-4">
+          <form className="space-y-5">
 
-          {days.map((item)=>(
-            <div
-              key={item.day}
-              className="flex bg-white/80 rounded-xl overflow-hidden shadow"
+
+            <input
+              type="text"
+              placeholder="Your Name"
+              className="w-full bg-transparent border border-gray-500 p-4 rounded text-white"
+            />
+
+
+            <input
+              type="email"
+              placeholder="Email Address"
+              className="w-full bg-transparent border border-gray-500 p-4 rounded text-white"
+            />
+
+
+            <input
+              type="text"
+              placeholder="Phone Number (optional)"
+              className="w-full bg-transparent border border-gray-500 p-4 rounded text-white"
+            />
+
+
+            <textarea
+              rows={6}
+              placeholder="Discover Bhutan your way — every journey crafted with care and local expertise."
+              className="w-full bg-transparent border border-gray-500 p-4 rounded text-white"
+            />
+
+
+            <label className="flex gap-3 text-sm text-gray-300">
+
+              <input type="checkbox" />
+
+              Receive travel updates and Bhutan tour offers
+
+            </label>
+
+
+            <button
+              className="w-full bg-yellow-500 hover:bg-yellow-600 text-black py-4 rounded font-bold tracking-widest"
             >
 
-              <img
-                src={item.img}
-                className="w-52 object-cover"
-              />
+              SEND ENQUIRY
+
+            </button>
 
 
-              <div className="p-5">
+          </form>
 
-                <h2 className="text-xl font-bold text-blue-950">
-                  {item.day} - {item.title}
-                </h2>
-
-                <p className="mt-3">
-                  {item.text}
-                </p>
-
-              </div>
-
-            </div>
-          ))}
 
         </div>
 
 
 
-        {/* RIGHT SIDE */}
-        <div className="bg-white/80 rounded-2xl p-8 shadow">
 
-          <h2 className="text-2xl font-bold text-center text-blue-950">
-            TOUR HIGHLIGHTS
+        {/* RIGHT INFORMATION BOX */}
+
+        <div className="bg-white text-black p-10 rounded-xl">
+
+          <h2 className="text-3xl font-bold mb-8">
+            Why Travel With Dragon Vista?
           </h2>
 
 
-          <ul className="mt-8 space-y-5 text-lg">
+          <ul className="space-y-6 text-lg">
 
-            <li>🏯 Tashichho Dzong</li>
+            <li>✓ Bhutan travel specialists</li>
 
-            <li>🙏 Buddha Dordenma</li>
+            <li>✓ Personalised private journeys</li>
 
-            <li>⛰ Dochula Pass</li>
+            <li>✓ Authentic cultural experiences</li>
 
-            <li>🏰 Punakha Dzong</li>
+            <li>✓ Trekking & festival experts</li>
 
-            <li>🌾 Chimi Lhakhang</li>
-
-            <li>🐯 Tiger’s Nest Monastery</li>
+            <li>✓ Local Bhutan knowledge</li>
 
           </ul>
+
 
         </div>
 
@@ -128,47 +110,6 @@ export default function SevenDayTour() {
       </div>
 
 
-      <h2 className="text-center text-3xl italic mt-12">
-        Thank you for travelling with Dragon Vista Tours!
-      </h2>
-{/* PRICE + ENQUIRY BOX */}
-
-<div className="mt-10 bg-green-950 text-white rounded-3xl p-8 text-center shadow-xl">
-
-  <p className="tracking-widest text-gray-300 font-semibold">
-    STARTING FROM
-  </p>
-
-  <p className="mt-2 font-bold">
-    USD
-  </p>
-
-  <h2 className="text-6xl font-bold text-yellow-500 mt-3">
-    1,850
-  </h2>
-
-</div>
-
-
-<a
-  href="mailto:yourmail@gmail.com?subject=7 Days Bhutan Tour Enquiry"
-  className="
-    block 
-    mt-6
-    bg-yellow-500
-    text-white
-    rounded-full
-    py-5
-    text-center
-    text-2xl
-    font-bold
-    hover:bg-yellow-600
-    transition
-  "
->
-  Talk to Us →
-</a>
     </main>
-    
   );
 }

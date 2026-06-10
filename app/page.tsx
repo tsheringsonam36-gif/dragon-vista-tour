@@ -7,7 +7,7 @@ export default function Home() {
     <main className="min-h-screen bg-black text-white">
 
       
-
+cd
       {/* HERO SECTION */}
       <section className="relative h-screen flex items-center justify-center text-center overflow-hidden">
 

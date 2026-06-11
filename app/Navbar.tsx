@@ -91,27 +91,59 @@ export default function Navbar() {
       {open && (
         <div className="md:hidden absolute top-full left-0 bg-black w-full flex flex-col text-center gap-5 py-6">
 
-          <Link href="/">Home</Link>
+          <Link 
+href="/" 
+onClick={() => setOpen(false)}
+>
+Home
+</Link>
 
-          <Link href="/tours/cultural">
-            Cultural Tours
-          </Link>
+          <Link 
+href="/tours/cultural"
+onClick={() => setOpen(false)}
+>
+Cultural Tours
+</Link>
 
-          <Link href="/tours/crafted">
-            Crafted Journey
-          </Link>
+          <Link 
+href="/tours/crafted"
+onClick={() => setOpen(false)}
+>
+Crafted Journey
+</Link>
 
-          <Link href="/tours/trekking">
-            Trekking Tours
-          </Link>
+          <Link 
+href="/tours/trekking"
+onClick={() => setOpen(false)}
+>
+Trekking Tours
+</Link>
 
-          <Link href="/tours/festival">
-            Festival Tours
-          </Link>
+          <Link 
+href="/tours/festival"
+onClick={() => setOpen(false)}
+>
+Festival Tours
+</Link>
 
-          <Link href="/gallery">Gallery</Link>
-          <Link href="/about">About</Link>
-          <Link href="/contact">Contact</Link>
+          <Link
+href="/#gallery"
+onClick={() => setOpen(false)}
+>
+Gallery
+</Link>
+          <Link
+href="/#about"
+onClick={() => setOpen(false)}
+>
+About
+</Link>
+          <Link 
+href="/contact"
+onClick={() => setOpen(false)}
+>
+Contact
+</Link>
 
         </div>
       )}

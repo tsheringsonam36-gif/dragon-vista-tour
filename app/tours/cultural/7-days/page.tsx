@@ -50,16 +50,16 @@ export default function SevenDayTour() {
     <main
       className="min-h-screen bg-cover bg-center p-10"
       style={{
-        backgroundImage: "url('/background.png')",
+        backgroundImage: "url('/golden.png')",
       }}
     >
 
       <h1 className="text-center text-6xl font-bold text-red-950">
-        BHUTAN ITINERARY
+        Golden Kingdom Journey
       </h1>
 
       <p className="text-center text-3xl mt-3 italic">
-        Journey to the Land of Happiness
+        7 Days | The Dragon Kingdom Discovery
       </p>
 
 

@@ -55,7 +55,7 @@ export default function TenDayCultureTour() {
     {
       day: "DAY 7",
       title: "PHOBJIKHA VALLEY EXPLORATION",
-      img: "/phobjikha.png",
+      img: "/monk.png",
       text:
         "Explore peaceful Gangtey Valley, winter home of the rare black-necked cranes. Visit Gangtey Monastery and experience traditional Bhutanese countryside life.",
     },
@@ -95,7 +95,7 @@ export default function TenDayCultureTour() {
 
       style={{
 
-        backgroundImage: "url('/background.png')",
+        backgroundImage: "url('/punakha.png')",
 
       }}
 
@@ -105,7 +105,7 @@ export default function TenDayCultureTour() {
 
       <h1 className="text-center text-6xl font-bold text-red-950">
 
-        BHUTAN CULTURAL ITINERARY
+        Bhutan Grand Discovery
 
       </h1>
 
@@ -113,7 +113,7 @@ export default function TenDayCultureTour() {
 
       <p className="text-center text-3xl mt-3 italic">
 
-        10 Days Journey Through Bhutan
+        10 Days | Beyond the Clouds of Bhutan
 
       </p>
 

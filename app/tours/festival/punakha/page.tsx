@@ -75,7 +75,7 @@ Today is where Bhutan’s history becomes alive.`
 day:"Day 4",
 title:"Across Valleys Into Bhutan’s Spiritual Heartland",
 location:"Punakha → Bumthang",
-image:"/paro-valley.png",
+image:"/trongsa.png",
 
 text:`Begin with a peaceful walk through traditional villages and rice fields towards Chimi Lhakhang.
 
@@ -91,7 +91,7 @@ Your journey moves deeper into Bhutan’s spiritual heartland.`
 day:"Day 5",
 title:"Bumthang – Valley Of Ancient Legends",
 location:"Bumthang",
-image:"/couple-blessing.png",
+image:"/bumthang.png",
 
 text:`Explore one of Bhutan’s most sacred valleys.
 
@@ -111,7 +111,7 @@ A day surrounded by blessings, history and Himalayan peace.`
 day:"Day 6",
 title:"Royal Heritage & Journey Through Central Bhutan",
 location:"Bumthang → Gangtey",
-image:"/punakha.png",
+image:"/monk.png",
 
 text:`Travel through spectacular mountain landscapes towards Gangtey.
 
@@ -147,7 +147,7 @@ Visit Paro Dzong, the National Museum and historic landmarks surrounded by mount
 day:"Day 8",
 title:"Tiger’s Nest – Bhutan’s Sacred Wonder",
 location:"Taktsang Monastery",
-image:"/tigernest.png",
+image:"/tiger.png",
 
 text:`Today completes your Bhutan journey with the legendary Tiger’s Nest hike.
 

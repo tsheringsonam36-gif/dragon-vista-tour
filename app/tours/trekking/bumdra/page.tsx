@@ -52,7 +52,7 @@ export default function BumdraTrek() {
       <section
         className="h-[70vh] bg-cover bg-center flex items-center justify-center"
         style={{
-          backgroundImage: "url('/sagala.png')",
+          backgroundImage: "url('/bumdrala.png')",
         }}
       >
         <div className="bg-black/60 p-10 rounded-xl text-center">

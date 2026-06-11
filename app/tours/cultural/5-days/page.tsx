@@ -60,7 +60,7 @@ export default function FiveDayCultureTour() {
 
       style={{
 
-        backgroundImage: "url('/background.png')",
+        backgroundImage: "url('/buddha.png')",
 
       }}
 
@@ -72,7 +72,7 @@ export default function FiveDayCultureTour() {
 
       <h1 className="text-center text-6xl font-bold text-red-950">
 
-        BHUTAN CULTURAL ITINERARY
+        Mystical Bhutan Experience
 
       </h1>
 
@@ -80,7 +80,7 @@ export default function FiveDayCultureTour() {
 
       <p className="text-center text-3xl mt-3 italic">
 
-        5 Days Journey to the Land of Happiness
+        5 Days | Whispers of the Himalayas
 
       </p>
 

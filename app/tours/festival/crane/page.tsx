@@ -8,7 +8,7 @@ const itinerary=[
 day:"Day 1",
 title:"Arrival In Bhutan – Into The Peaceful Himalayas",
 location:"Paro → Thimphu",
-image:"/paro.png",
+image:"/buddha.png",
 
 text:`Your journey begins as you land in the beautiful Paro Valley surrounded by Himalayan peaks.
 
@@ -64,7 +64,7 @@ A day filled with beauty, history and harmony.`
 day:"Day 4",
 title:"Wings Of The Himalayas – Crane Festival Day",
 location:"Phobjikha Valley",
-image:"/paro-valley.png",
+image:"/crane-festival.png",
 
 text:`Today is the heart of your journey.
 
@@ -93,7 +93,7 @@ Later walk through the peaceful valley and experience one of Bhutan’s most unt
 day:"Day 5",
 title:"Blessed Villages & Return To Paro",
 location:"Phobjikha → Punakha → Paro",
-image:"/couple-blessing.png",
+image:"/paro.png",
 
 text:`Begin your journey back through Bhutan’s beautiful valleys.
 
@@ -111,7 +111,7 @@ Ancient stories, sacred artwork and Himalayan culture come together.`
 day:"Day 6",
 title:"Beyond The Clouds – Chele La & Hidden Haa Valley",
 location:"Paro → Haa Valley",
-image:"/paro.png",
+image:"/monk.png",
 
 text:`Today discover Bhutan’s hidden western valleys.
 
@@ -129,7 +129,7 @@ A perfect escape into Bhutan’s peaceful countryside.`
 day:"Day 7",
 title:"Bumdra Adventure – Cave Of A Thousand Prayers",
 location:"Bumdra Trek",
-image:"/tigernest.png",
+image:"/bumdrala.png",
 
 text:`Today your mountain adventure begins.
 
@@ -151,7 +151,7 @@ Spend the evening surrounded by Himalayan views, stars and unforgettable mountai
 day:"Day 8",
 title:"Sacred Descent Through Tiger’s Nest",
 location:"Taktsang Monastery",
-image:"/tigernest.png",
+image:"/tiger.png",
 
 text:`Wake up above the clouds and begin your descent through ancient forest trails.
 

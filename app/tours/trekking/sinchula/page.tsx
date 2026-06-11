@@ -53,7 +53,7 @@ export default function SinchulaTrek() {
         className="h-[75vh] bg-cover bg-center flex items-center justify-center"
 
         style={{
-          backgroundImage: "url('/sinchula.jpg')",
+          backgroundImage: "url('/sinchulla.png')",
         }}
 
       >

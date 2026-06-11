@@ -76,7 +76,7 @@ export default function Jomolhari() {
       <section
         className="h-[75vh] bg-cover bg-center flex items-center justify-center"
         style={{
-          backgroundImage: "url('/mystery.png')",
+          backgroundImage: "url('/jomolhari.png')",
         }}
       >
 

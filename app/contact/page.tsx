@@ -3,7 +3,7 @@ export default function Contact() {
     <main
       className="min-h-screen bg-cover bg-center px-10 py-20"
       style={{
-        backgroundImage: "url('/background.png')",
+        backgroundImage: "url('/flag.png')",
       }}
     >
 

@@ -31,7 +31,7 @@ day:"Day 2",
 title:"Tiger’s Nest – Bhutan’s Spiritual Wonder",
 location:"Taktsang Monastery",
 
-image:"/tigernest.png",
+image:"/tiger.png",
 
 text:`Today is one of Bhutan’s most unforgettable experiences.
 

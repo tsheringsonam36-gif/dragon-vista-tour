@@ -95,8 +95,8 @@ backgroundImage:
 <div className="text-white px-6">
 
 
-<h1 className="text-6xl font-bold mb-6">
-🎭 Bhutan Festival Journeys
+<h1 className="text-6xl font-bold mb-6 text-yellow-400 drop-shadow-2x1">
+Bhutan Festival Journeys
 </h1>
 
 

@@ -66,7 +66,7 @@ day:"Day 4",
 title:"Festival Above The Clouds – Druk Wangyel Tshechu",
 location:"Dochula Pass → Paro",
 
-image:"/punakha.png",
+image:"/dochula-festival.png",
 
 text:`Today is the highlight of your journey.
 
@@ -93,7 +93,7 @@ day:"Day 5",
 title:"Ancient Spiritual Treasures Of Paro",
 location:"Paro",
 
-image:"/couple-blessing.png",
+image:"/paro.png",
 
 text:`Today is a peaceful journey into Bhutan’s spiritual heritage.
 
@@ -112,7 +112,7 @@ day:"Day 6",
 title:"Tiger’s Nest – The Journey Above The Clouds",
 location:"Taktsang Monastery",
 
-image:"/tigernest.png",
+image:"/tiger.png",
 
 text:`Today experience Bhutan’s most iconic landmark — Tiger’s Nest Monastery.
 

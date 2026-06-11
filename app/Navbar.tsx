@@ -15,7 +15,7 @@ export default function Navbar() {
         <img
           src="/logo.png"
           alt="Dragon Vista Tours"
-          className="h-20 md:h-20"
+          className="h-40 md:h-30"
         />
       </Link>
 
@@ -34,29 +34,45 @@ export default function Navbar() {
           {tourOpen && (
             <div className="absolute bg-slate-900 mt-4 p-6 rounded-xl w-60 space-y-5">
               
-              <Link href="/tours/cultural" className="block">
-                Cultural Tours
-              </Link>
+              <Link
+  href="/tours/cultural"
+  onClick={() => setTourOpen(false)}
+  className="block"
+>
+  Cultural Tours
+</Link>
 
-              <Link href="/tours/crafted" className="block">
-                Crafted Journey
-              </Link>
+              <Link
+  href="/tours/crafted"
+  onClick={() => setTourOpen(false)}
+  className="block"
+>
+  Crafted Journey
+</Link>
 
-              <Link href="/tours/trekking" className="block">
-                Trekking Tours
-              </Link>
+              <Link
+  href="/tours/trekking"
+  onClick={() => setTourOpen(false)}
+  className="block"
+>
+  Trekking Tours
+</Link>
 
-              <Link href="/tours/festival" className="block">
-                Festival Tours
-              </Link>
+              <Link
+  href="/tours/festival"
+  onClick={() => setTourOpen(false)}
+  className="block"
+>
+  Festival Tours
+</Link>
 
             </div>
           )}
 
         </div>
 
-        <Link href="/gallery">Gallery</Link>
-        <Link href="/about">About</Link>
+        <Link href="/#gallery">Gallery</Link>
+        <Link href="/#about">About</Link>
         <Link href="/contact">Contact</Link>
 
       </div>

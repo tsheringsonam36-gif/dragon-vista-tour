@@ -50,7 +50,7 @@ export default function FourDayCultureTour() {
 
       style={{
 
-        backgroundImage: "url('/background.png')",
+        backgroundImage: "url('/monk.png')",
 
       }}
 
@@ -62,7 +62,7 @@ export default function FourDayCultureTour() {
 
       <h1 className="text-center text-6xl font-bold text-red-950">
 
-        BHUTAN CULTURAL ITINERARY
+        A Taste of Bhutan
 
       </h1>
 
@@ -70,7 +70,7 @@ export default function FourDayCultureTour() {
 
       <p className="text-center text-3xl mt-3 italic">
 
-        4 Days Journey to the Land of Happiness
+        4 Days | Journey to the Land of Happiness
 
       </p>
 

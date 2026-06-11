@@ -135,7 +135,7 @@ export default function FifteenDayCultureTour() {
 
       style={{
 
-        backgroundImage: "url('/background.png')",
+        backgroundImage: "url('/monk.png')",
 
       }}
 
@@ -144,14 +144,14 @@ export default function FifteenDayCultureTour() {
 
       <h1 className="text-center text-6xl font-bold text-red-950">
 
-        GRAND BHUTAN ITINERARY
+        Ultimate Bhutan Adventure
 
       </h1>
 
 
       <p className="text-center text-3xl mt-3 italic">
 
-        15 Days Complete Cultural Journey
+        15 Days | Soul of the Thunder Dragon
 
       </p>
 

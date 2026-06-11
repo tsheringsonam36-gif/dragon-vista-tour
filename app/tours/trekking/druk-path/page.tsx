@@ -79,7 +79,7 @@ export default function DrukPathTrek() {
         className="h-[75vh] bg-cover bg-center flex items-center justify-center"
 
         style={{
-          backgroundImage: "url('/mystery.png')",
+          backgroundImage: "url('/drukpath.png')",
         }}
 
       >

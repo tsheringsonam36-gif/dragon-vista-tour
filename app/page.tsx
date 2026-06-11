@@ -7,7 +7,7 @@ export default function Home() {
     <main className="min-h-screen bg-black text-white">
 
       
-cd
+
       {/* HERO SECTION */}
       <section className="relative h-screen flex items-center justify-center text-center overflow-hidden">
 
@@ -186,10 +186,19 @@ cd
   </h2>
 
   <p className="text-lg text-gray-700 max-w-4xl mx-auto text-center">
-    Dragon Vista Tours is a Bhutan-based travel company dedicated to creating
-    authentic and unforgettable travel experiences. From cultural journeys and
-    luxury holidays to trekking adventures and vibrant festivals, we help
-    travellers discover the true beauty, heritage and hospitality of Bhutan.
+  
+Dragon Vista Tours was born from a deep love and passion for sharing the true spirit of Bhutan — the Land of Happiness.
+
+With many years of experience welcoming travellers from different corners of the world, we understand that every journey is more than just visiting places — it is about creating memories, meaningful connections and once-in-a-lifetime experiences.
+
+Over the years, we have proudly crafted unforgettable journeys for countless happy travellers, from cultural discoveries and breathtaking Himalayan treks to colourful festival experiences, luxury escapes and personally designed private tours.
+
+At Dragon Vista Tours, every detail of your journey is carefully handled. From visa arrangements, comfortable accommodation, reliable transportation, delicious meals, experienced guides and professional drivers — we make sure your Bhutan experience is smooth, safe and truly memorable.
+
+Our local knowledge, personal care and attention to detail allow travellers to experience the real Bhutan — ancient monasteries, peaceful valleys, warm hospitality, living traditions and the happiness that makes our kingdom unique.
+
+Whether you dream of standing beneath Himalayan peaks, witnessing sacred festivals, exploring hidden villages or creating your own special journey, Dragon Vista Tours is here to turn your Bhutan dream into reality.
+
   </p>
 </section>
 
@@ -425,11 +434,11 @@ cd
 <section className="bg-black text-white py-14 text-center">
 
   <h2 className="text-4xl font-bold mb-3">
-    Follow Dragon Vista Tours
+    Stay Connected with The Kingdom of Happiness
   </h2>
 
   <p className="text-gray-300 mb-10 text-lg">
-    Dragon Vista Tours | Where the Thunder Dragon Guides Your Journey
+    Follow our Bhutan stories, hidden Himalayan treasures, travel inspiration  & unforgetten journeys.
   </p>
 
 
@@ -444,7 +453,7 @@ cd
       <img
         src="/instagram.png"
         className="
-        w-16 h-16
+        w-10 h-10
         rounded-full
         object-cover
         hover:scale-125
@@ -463,7 +472,7 @@ cd
       <img
         src="/facebook.png"
         className="
-        w-16 h-16
+        w-10 h-10
         rounded-full
         object-cover
         hover:scale-125
@@ -482,7 +491,7 @@ cd
       <img
         src="/tiktok.png"
         className="
-        w-16 h-16
+        w-10 h-10
         rounded-full
         object-cover
         hover:scale-125
@@ -501,7 +510,7 @@ cd
       <img
         src="/whatsapp.png"
         className="
-        w-16 h-16
+        w-10 h-10
         rounded-full
         object-cover
         hover:scale-125

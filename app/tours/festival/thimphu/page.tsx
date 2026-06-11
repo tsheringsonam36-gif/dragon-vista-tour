@@ -90,7 +90,7 @@ A day of culture, connection and discovery.`
 day:"Day 5",
 title:"Return To Paro – Valley Of Legends",
 location:"Punakha → Paro",
-image:"/couple-blessing.png",
+image:"/paro.png",
 
 text:`Return to Paro, one of Bhutan’s most beautiful valleys.
 
@@ -108,7 +108,7 @@ Spend your evening surrounded by Paro’s peaceful mountain atmosphere.`
 day:"Day 6",
 title:"Tiger’s Nest – Bhutan’s Spiritual Icon",
 location:"Taktsang Monastery",
-image:"/tigernest.png",
+image:"/tiger.png",
 
 text:`Today is your unforgettable journey to Tiger’s Nest Monastery.
 

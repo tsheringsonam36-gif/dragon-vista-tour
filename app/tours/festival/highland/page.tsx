@@ -46,7 +46,7 @@ A day where landscapes, legends and history come together.`
 day:"Day 3",
 title:"Hidden Temples & Valley Blessings",
 location:"Punakha Exploration",
-image:"/paro-valley.png",
+image:"/punakha.png",
 
 text:`Today discover the peaceful side of Punakha.
 
@@ -68,7 +68,7 @@ True Bhutan.`
 day:"Day 4",
 title:"Into The Highlands – Journey To Laya",
 location:"Punakha → Gasa → Laya",
-image:"/tigernest.png",
+image:"/yak.png",
 
 text:`Today your true Himalayan adventure begins.
 
@@ -88,7 +88,7 @@ Tonight, sleep surrounded by the untouched beauty of Bhutan’s highlands.`
 day:"Day 5",
 title:"Guardians Of The Mountains – Royal Highland Festival",
 location:"Laya Highland Festival",
-image:"/couple-blessing.png",
+image:"/merak.png",
 
 text:`Today is the heart of your journey.
 
@@ -114,7 +114,7 @@ A celebration of people who live among the clouds.`
 day:"Day 6",
 title:"A Deeper Highland Experience",
 location:"Laya",
-image:"/punakha.png",
+image:"/flag.png",
 
 text:`Spend another unforgettable day immersed in highland culture.
 
@@ -132,7 +132,7 @@ Few journeys bring travellers this close to authentic Bhutan.`
 day:"Day 7",
 title:"Leaving The Clouds Behind",
 location:"Laya → Punakha",
-image:"/paro-valley.png",
+image:"/monk.png",
 
 text:`Wake up one final morning among Bhutan’s remote peaks.
 
@@ -164,7 +164,7 @@ Today reconnects you with Bhutan’s culture after your mountain adventure.`
 day:"Day 9",
 title:"Tiger’s Nest – The Final Himalayan Journey",
 location:"Taktsang Monastery",
-image:"/tigernest.png",
+image:"/tiger.png",
 
 text:`Complete your Bhutan adventure with the legendary Tiger’s Nest hike.
 

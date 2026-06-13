@@ -294,7 +294,23 @@ Find Your Perfect Festival Date
 Let Dragon Vista Tours craft your unforgettable Bhutan festival experience.
 
 </p>
+<div className="flex flex-col md:flex-row gap-6 justify-center mt-10">
 
+<a
+href="/festival-2026"
+className="bg-orange-500 px-8 py-4 rounded-full font-bold"
+>
+Explore 2026 Festival Dates →
+</a>
+
+<a
+href="/festival-2027"
+className="bg-orange-500 px-8 py-4 rounded-full font-bold"
+>
+Explore 2027 Festival Dates →
+</a>
+
+</div>
 
 
 <Link

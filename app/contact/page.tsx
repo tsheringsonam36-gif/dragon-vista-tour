@@ -23,24 +23,32 @@ export default function Contact() {
           </p>
 
 
-          <form className="space-y-5">
-
+          <form
+            action="https://formspree.io/f/mnjylnyy"
+            method="POST"
+            className="space-y-5"
+          >
 
             <input
+              name="name"
               type="text"
+              required
               placeholder="Your Name"
               className="w-full bg-transparent border border-gray-500 p-4 rounded text-white"
             />
 
 
             <input
+              name="email"
               type="email"
+              required
               placeholder="Email Address"
               className="w-full bg-transparent border border-gray-500 p-4 rounded text-white"
             />
 
 
             <input
+              name="phone"
               type="text"
               placeholder="Phone Number (optional)"
               className="w-full bg-transparent border border-gray-500 p-4 rounded text-white"
@@ -48,7 +56,9 @@ export default function Contact() {
 
 
             <textarea
+              name="message"
               rows={6}
+              required
               placeholder="Discover Bhutan your way — every journey crafted with care and local expertise."
               className="w-full bg-transparent border border-gray-500 p-4 rounded text-white"
             />
@@ -56,7 +66,10 @@ export default function Contact() {
 
             <label className="flex gap-3 text-sm text-gray-300">
 
-              <input type="checkbox" />
+              <input
+                name="updates"
+                type="checkbox"
+              />
 
               Receive travel updates and Bhutan tour offers
 
@@ -64,6 +77,7 @@ export default function Contact() {
 
 
             <button
+              type="submit"
               className="w-full bg-yellow-500 hover:bg-yellow-600 text-black py-4 rounded font-bold tracking-widest"
             >
 

@@ -228,7 +228,7 @@ Whether you dream of standing beneath Himalayan peaks, witnessing sacred festiva
   <div className="text-center text-lg">
     <p>Email: info@dragonvistatours.com</p>
     <p>Phone: +975 17457487</p>
-    <p>WhatsApp: +975 XXXXXXXX</p>
+    <p>WhatsApp: +61 431469379</p>
   </div>
 </section>
         <h2 className="text-5xl font-bold text-center mb-14">

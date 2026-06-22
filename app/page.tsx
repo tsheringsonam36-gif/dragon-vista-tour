@@ -421,116 +421,215 @@ Whether you dream of standing beneath Himalayan peaks, witnessing sacred festiva
 </section>
 
       {/* FOOTER */}
-      <footer className="bg-black text-center py-8 border-t border-gray-800">
+<footer className="bg-black text-white py-16 border-t border-gray-800">
 
-        <h3 className="text-2xl font-bold text-orange-400 mb-3">
-          Dragon Vista Tours
-        </h3>
-
-        <p className="text-gray-400">
-          Where Happiness Meets Adventure
-        </p>
-{/* SOCIAL MEDIA FOOTER */}
-<section className="bg-black text-white py-14 text-center">
-
-  <h2 className="text-4xl font-bold mb-3">
-    Stay Connected with The Kingdom of Happiness
-  </h2>
-
-  <p className="text-gray-300 mb-10 text-lg">
-    Follow our Bhutan stories, hidden Himalayan treasures, travel inspiration  & unforgetten journeys.
-  </p>
+  <div className="max-w-6xl mx-auto px-8 grid md:grid-cols-2 gap-12">
 
 
-  <div className="flex justify-center gap-8">
+    {/* LEFT SIDE - BRAND & SOCIAL */}
+    <div>
+
+      <h3 className="text-4xl font-bold text-orange-500 mb-3">
+        Dragon Vista Tours
+      </h3>
+
+      <p className="text-blue-300 text-xl mb-8">
+        Where Happiness Meets Adventure
+      </p>
 
 
-    {/* INSTAGRAM */}
-    <a
-      href="https://www.instagram.com/dragonvistatours"
-      target="_blank"
-    >
-      <img
-        src="/instagram.png"
-        className="
-        w-10 h-10
-        rounded-full
-        object-cover
-        hover:scale-125
-        transition
-        shadow-lg
-        "
-      />
-    </a>
+      <div className="w-16 h-1 bg-orange-500 mb-8"></div>
 
 
-    {/* FACEBOOK */}
-    <a
-      href="https://www.facebook.com/dragonvistatours"
-      target="_blank"
-    >
-      <img
-        src="/facebook.png"
-        className="
-        w-10 h-10
-        rounded-full
-        object-cover
-        hover:scale-125
-        transition
-        shadow-lg
-        "
-      />
-    </a>
+      <p className="text-gray-300 text-lg mb-10 leading-relaxed">
+
+        Stay connected with the Kingdom of Happiness.
+        Follow our Bhutan stories, hidden Himalayan treasures,
+        travel inspiration & unforgettable journeys.
+
+      </p>
 
 
-    {/* TIKTOK */}
-    <a
-      href="https://www.tiktok.com/@dragonvistatours"
-      target="_blank"
-    >
-      <img
-        src="/tiktok.png"
-        className="
-        w-10 h-10
-        rounded-full
-        object-cover
-        hover:scale-125
-        transition
-        shadow-lg
-        "
-      />
-    </a>
+      {/* SOCIAL ICONS */}
+      <div className="flex gap-8">
 
 
-    {/* WHATSAPP */}
-    <a
-      href="https://wa.me/975XXXXXXXX"
-      target="_blank"
-    >
-      <img
-        src="/whatsapp.png"
-        className="
-        w-10 h-10
-        rounded-full
-        object-cover
-        hover:scale-125
-        transition
-        shadow-lg
-        "
-      />
-    </a>
+        {/* INSTAGRAM */}
+        <a
+          href="https://www.instagram.com/dragonvistatours"
+          target="_blank"
+        >
+
+          <img
+            src="/instagram.png"
+            className="
+            w-12 h-12 rounded-full
+            hover:scale-125 transition
+            "
+          />
+
+        </a>
+
+
+
+        {/* FACEBOOK */}
+        <a
+          href="https://www.facebook.com/dragonvistatours"
+          target="_blank"
+        >
+
+          <img
+            src="/facebook.png"
+            className="
+            w-12 h-12 rounded-full
+            hover:scale-125 transition
+            "
+          />
+
+        </a>
+
+
+
+        {/* TIKTOK */}
+        <a
+          href="https://www.tiktok.com/@dragonvistatours"
+          target="_blank"
+        >
+
+          <img
+            src="/tiktok.png"
+            className="
+            w-12 h-12 rounded-full
+            hover:scale-125 transition
+            "
+          />
+
+        </a>
+
+
+
+        {/* WHATSAPP */}
+        <a
+          href="https://wa.me/61431469378"
+          target="_blank"
+        >
+
+          <img
+            src="/whatsapp.png"
+            className="
+            w-12 h-12 rounded-full
+            hover:scale-125 transition
+            "
+          />
+
+        </a>
+
+
+      </div>
+
+
+    </div>
+
+
+
+
+
+    {/* RIGHT SIDE - TRAVEL TIPS */}
+
+    <div>
+
+      <h3 className="text-3xl font-bold mb-3">
+        Travel Tips
+      </h3>
+
+
+      <div className="w-16 h-1 bg-orange-500 mb-8"></div>
+
+
+      <div className="space-y-6 text-lg">
+
+
+        <Link
+          href="/travel-tips/visa"
+          className="
+          flex justify-between border-b border-gray-700 pb-4
+          hover:text-orange-400 transition
+          "
+        >
+
+          <span>🌏 Visa & Travel Guide</span>
+          <span>›</span>
+
+        </Link>
+
+
+
+        <Link
+          href="/travel-tips/terms"
+          className="
+          flex justify-between border-b border-gray-700 pb-4
+          hover:text-orange-400 transition
+          "
+        >
+
+          <span>📄 Terms & Conditions</span>
+          <span>›</span>
+
+        </Link>
+
+
+
+
+        <Link
+          href="/travel-tips/dos-donts"
+          className="
+          flex justify-between border-b border-gray-700 pb-4
+          hover:text-orange-400 transition
+          "
+        >
+
+          <span>🙏 Do’s and Don’ts</span>
+          <span>›</span>
+
+        </Link>
+
+
+
+
+        <Link
+          href="/travel-tips/best-time"
+          className="
+          flex justify-between border-b border-gray-700 pb-4
+          hover:text-orange-400 transition
+          "
+        >
+
+          <span>🍂 Best Time to Visit Bhutan</span>
+          <span>›</span>
+
+        </Link>
+
+
+      </div>
+
+
+    </div>
 
 
   </div>
 
 
-  <p className="mt-12 text-gray-400">
-    © 2026 Dragon Vista Tours | Creating Authentic Bhutan Experiences
-  </p>
 
-</section>
-      </footer>
+  {/* COPYRIGHT */}
 
-    </main>
-  );
+  <div className="text-center text-gray-400 mt-14 border-t border-gray-800 pt-8">
+
+    © 2026 Dragon Vista Tours | Creating Authentic Bhutan Experiences 🐉
+
+  </div>
+
+
+</footer>
+</main>
+  ) ;
 }

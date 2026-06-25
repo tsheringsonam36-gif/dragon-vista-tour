@@ -252,7 +252,7 @@ export default function FourDayCultureTour() {
 
             <h2 className="text-5xl font-bold text-yellow-500">
 
-              1050
+              1400
 
             </h2>
 

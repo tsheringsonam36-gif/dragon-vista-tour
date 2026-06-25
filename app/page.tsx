@@ -79,7 +79,7 @@ export default function Home() {
                 </h3>
 
                 <p className="text-lg">
-                  From USD 1850
+                  From USD 2100
                 </p>
 
               </div>
@@ -109,7 +109,7 @@ export default function Home() {
                 </h3>
 
                 <p className="text-lg">
-                  From USD 2000
+                  From USD 2800
                 </p>
 
               </div>
@@ -169,7 +169,7 @@ export default function Home() {
                 </h3>
 
                 <p className="text-lg">
-                  From USD 4500
+                  Contact us for pricing
                 </p>
 
               </div>
@@ -213,8 +213,12 @@ Whether you dream of standing beneath Himalayan peaks, witnessing sacred festiva
     <img src="/Festival.png" alt="Festival" className="rounded-xl" />
     <img src="/background.png" alt="Bhutan" className="rounded-xl" />
     <img src="/dochula-festival.png" alt="Bhutan" className="rounded-xl" />
+    <img src="/golden.png" alt="Bhutan" className="rounded-xl" />
     <img src="/adventure.png" alt="Bhutan" className="rounded-xl" />
+    <img src="/dagalla.png" alt="Bhutan" className="rounded-xl" />
     <img src="/bumthang.png" alt="Bhutan" className="rounded-xl" />
+    <img src="/bumdrala.png" alt="Bhutan" className="rounded-xl" />
+    <img src="/jomolhari.png" alt="Bhutan" className="rounded-xl" />
     <img src="/dochula.png" alt="Bhutan" className="rounded-xl" />
   </div>
 </section>
@@ -624,10 +628,9 @@ Whether you dream of standing beneath Himalayan peaks, witnessing sacred festiva
 
   <div className="text-center text-gray-400 mt-14 border-t border-gray-800 pt-8">
 
-    © 2026 Dragon Vista Tours | Creating Authentic Bhutan Experiences 🐉
+    © 2026 Dragon Vista Tours | Creating Authentic Bhutan Experiences 
 
   </div>
-
 
 </footer>
 </main>

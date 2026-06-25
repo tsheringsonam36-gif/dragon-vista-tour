@@ -124,7 +124,7 @@ export default function SevenDayTour() {
             <p>USD</p>
 
             <h2 className="text-5xl font-bold text-yellow-500">
-              2,100
+              2,450
             </h2>
 
           </div>

@@ -280,7 +280,7 @@ export default function TenDayCultureTour() {
 
             <h2 className="text-5xl font-bold text-yellow-500">
 
-              3,150
+              3,500
 
             </h2>
 

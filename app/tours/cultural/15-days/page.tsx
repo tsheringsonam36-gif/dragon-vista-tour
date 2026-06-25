@@ -293,7 +293,7 @@ export default function FifteenDayCultureTour() {
 
             <h2 className="text-5xl font-bold text-yellow-500">
 
-              4,900
+              5,250
 
             </h2>
 

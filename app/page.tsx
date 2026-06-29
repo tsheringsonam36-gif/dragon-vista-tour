@@ -236,71 +236,48 @@ Whether you dream of standing beneath Himalayan peaks, witnessing sacred festiva
   </div>
 </section>
         <h2 className="text-5xl font-bold text-center mb-14">
-          Why Travel With Us
+          Travel With Purpose
+          
         </h2>
 
         <div className="grid md:grid-cols-4 gap-8">
 
-          <Link href="/about">
+          <Link href="/blog/living-springs">
 
             <div className="bg-gray-900 p-8 rounded-3xl hover:scale-105 duration-300 cursor-pointer">
 
               <h3 className="text-2xl font-bold mb-4 text-orange-400">
-                Expert Guides
+                🌿 Living Springs Project
               </h3>
 
               <p className="text-gray-300">
-                1800+ happy custome, 35+ Friendly local guides with deep knowledge of Bhutanese culture.
+                Travel with purpose by helping protect Bhutan's precious spring water sources, supporting rural communities, preserving wildlife habitates, and planting one native tree during your journey.
               </p>
-
+<div className="mt-6">
+  <span className="inline-flex items-center text-orange-400 font-semibold hover:text-orange-300 transition">
+    Read the Story →
+  </span>
+</div>
             </div>
 
           </Link>
 
-          <Link href="/tours/luxury">
+          <Link href="/blog/every-step-matters">
 
             <div className="bg-gray-900 p-8 rounded-3xl hover:scale-105 duration-300 cursor-pointer">
 
               <h3 className="text-2xl font-bold mb-4 text-orange-400">
-                Luxury Experience
+                Every steps Matters
               </h3>
 
               <p className="text-gray-300">
-                Premium hotels, comfort travel, and unforgettable experiences.
+                Every traveller helps restore Bhutan's forests by planting a native tree, helping recharge mountain springs and protecting nature for future generations.
               </p>
-
-            </div>
-
-          </Link>
-
-          <Link href="/tours/cultural">
-
-            <div className="bg-gray-900 p-8 rounded-3xl hover:scale-105 duration-300 cursor-pointer">
-
-              <h3 className="text-2xl font-bold mb-4 text-orange-400">
-                Cultural Discovery
-              </h3>
-
-              <p className="text-gray-300">
-                Explore Bhutanese traditions, monasteries, and local life.
-              </p>
-
-            </div>
-
-          </Link>
-
-          <Link href="/tours/trekking">
-
-            <div className="bg-gray-900 p-8 rounded-3xl hover:scale-105 duration-300 cursor-pointer">
-
-              <h3 className="text-2xl font-bold mb-4 text-orange-400">
-                Adventure Trekking
-              </h3>
-
-              <p className="text-gray-300">
-                Discover breathtaking mountain trails and hidden valleys.
-              </p>
-
+<div className="mt-6">
+  <span className="inline-flex items-center text-orange-400 font-semibold hover:text-orange-300 transition">
+    Read the Story →
+  </span>
+</div>
             </div>
 
           </Link>

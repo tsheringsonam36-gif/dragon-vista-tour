@@ -342,11 +342,11 @@ Whether you dream of standing beneath Himalayan peaks, witnessing sacred festiva
         <div>
 
           <h3 className="font-bold text-xl">
-            Lynn Yong
+            Oliver
           </h3>
 
           <p className="text-gray-600">
-            United States • Apr 2026
+            Australia • Apr 2026
           </p>
 
           <p className="text-orange-400">
@@ -376,7 +376,7 @@ Whether you dream of standing beneath Himalayan peaks, witnessing sacred festiva
         <div>
 
           <h3 className="font-bold text-xl">
-            Chawtip Mcgiffin
+            Amelia
           </h3>
 
           <p className="text-gray-600">
@@ -437,7 +437,7 @@ Whether you dream of standing beneath Himalayan peaks, witnessing sacred festiva
 
         {/* INSTAGRAM */}
         <a
-          href="https://www.instagram.com/dragonvistatours"
+          href="https://www.instagram.com/dragonvistatour"
           target="_blank"
         >
 
@@ -455,10 +455,10 @@ Whether you dream of standing beneath Himalayan peaks, witnessing sacred festiva
 
         {/* FACEBOOK */}
         <a
-          href="https://www.facebook.com/dragonvistatours"
+          href="https://www.facebook.com/dragonvistatour"
           target="_blank"
-        >
-
+        rel="noopener noreferrer"
+>
           <img
             src="/facebook.png"
             className="

@@ -1,11 +1,27 @@
 "use client";
 
+import { useEffect } from "react";
 import Script from "next/script";
 
 export default function MetaPixel() {
+  useEffect(() => {
+    if (typeof window !== "undefined" && (window as any).fbq) {
+      (window as any).fbq("track", "PageView");
+    }
+  }, []);
+
   return (
     <>
-      <Script id="facebook-pixel" strategy="afterInteractive">
+      <Script
+        id="facebook-pixel"
+        strategy="afterInteractive"
+        onLoad={() => {
+          if ((window as any).fbq) {
+            (window as any).fbq("init", "2083372059196540");
+            (window as any).fbq("track", "PageView");
+          }
+        }}
+      >
         {`
           !function(f,b,e,v,n,t,s)
           {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -22,21 +38,8 @@ export default function MetaPixel() {
           s.parentNode.insertBefore(t,s)}
           (window, document,'script',
           'https://connect.facebook.net/en_US/fbevents.js');
-
-          fbq('init', '2083372059196540');
-          fbq('track', 'PageView');
         `}
       </Script>
-
-      <noscript>
-        <img
-          height="1"
-          width="1"
-          style={{ display: "none" }}
-          src="https://www.facebook.com/tr?id=2083372059196540&ev=PageView&noscript=1"
-          alt=""
-        />
-      </noscript>
     </>
   );
 }
